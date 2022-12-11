@@ -64,7 +64,7 @@ export default function Home({ urls }) {
         <h1 className={styles.logo}>Ace Shortner</h1>
         <p className={styles.subcaption}>Yet Another Link Shortener</p>
       </header>
-      <div>
+      <div className={styles.urlContainer}>
         <form className={styles.urlForm}>
           <fieldset>
             <input onChange={handleChange} value={formData.originalUrl} name='originalUrl' type="url" className={styles.originalUrl} placeholder="Enter Url ..." />
