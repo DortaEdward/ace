@@ -19,7 +19,6 @@ export default function Home({ urls }) {
   const { isLoading, data, error } = useQuery(['getUrls'], async () => {
     const res = await fetch('/api/urls')
     const json = res.json();
-    console.log(await json)
     return json;
   });
 
