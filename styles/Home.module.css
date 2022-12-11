@@ -9,6 +9,13 @@
   margin: 0 auto;
 }
 
+.urlContainer{
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
 .logo {
   padding: 1rem 2rem;
   border: 1px solid white;
@@ -32,8 +39,9 @@
   margin: 0.4rem 0;
 }
 
-.urlContainer{
+.urlCardContainer{
+  margin: 0 auto;
   max-width: 1024px;
-  witdh:100%;
+  width:100%;
 }
 

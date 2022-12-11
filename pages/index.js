@@ -83,7 +83,7 @@ export default function Home({ urls }) {
         </form>
         <Suspense>
 
-          <div className={styles.urlContainer}>
+          <div className={styles.urlCardContainer}>
             {
               data.urls.map((url) => {
                 return (
