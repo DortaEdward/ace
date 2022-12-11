@@ -1,0 +1,50 @@
+.urlContainer {
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  max-width: 1024px;
+  width: 90%;
+}
+
+.urlCard {
+  background: rgba(255, 255, 255, .2);
+  padding: 2rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.urlContent {
+  display: flex;
+  flex-direction: column;
+  gap: 0.6rem;
+}
+
+.originalUrlText {
+  font-size: 1.2rem;
+  font-weight: 600;
+}
+
+.shortenUrlText {
+  font-weight: 400;
+}
+
+.shortenUrlText a:hover {
+  text-decoration: underline;
+}
+
+.active{
+  visibility: visible;
+  color:green;
+}
+
+.inactive{
+  visibility: hidden;
+}
+
+.copyBtn{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap:0.6rem;
+}
